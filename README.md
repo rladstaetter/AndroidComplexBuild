@@ -1,5 +1,2 @@
-AndroidTopProject, project1, project2 all come from a SO post.
+Compatible with Gradle 3.2, Android Studio 2.2.2.
 
-If you go into [AndroidTop](AndroidTopProject) there is a README w/ the explintaion and a link to the question.
-
-Build with Gradle 2.1.
