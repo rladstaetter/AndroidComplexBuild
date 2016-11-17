@@ -78,7 +78,7 @@ You are going to need files here:
         }   
 
         dependencies {
-            classpath 'com.android.tools.build:gradle:0.13.3'
+            classpath 'com.android.tools.build:gradle:2.2.2'
         }   
     }
 
@@ -86,8 +86,8 @@ You are going to need files here:
         apply plugin: 'com.android.library'
 
         android {
-            compileSdkVersion 20
-            buildToolsVersion "20.0"
+            compileSdkVersion 24
+            buildToolsVersion "24.0.1"
         }   
 
         sourceCompatibility = JavaVersion.VERSION_1_7
@@ -108,7 +108,7 @@ You are going to need files here:
         }   
 
         dependencies {
-            classpath 'com.android.tools.build:gradle:0.13.3'
+            classpath 'com.android.tools.build:gradle:2.2.2'
         }   
     }
 
@@ -118,8 +118,8 @@ You are going to need files here:
     apply plugin: 'com.android.application'
 
     android {
-        compileSdkVersion 20
-        buildToolsVersion "20.0"
+        compileSdkVersion 24
+        buildToolsVersion "24.0.1"
     }
 
     dependencies {

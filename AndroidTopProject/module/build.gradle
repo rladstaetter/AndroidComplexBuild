@@ -4,7 +4,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.13.3'
+        classpath 'com.android.tools.build:gradle:2.2.2'
     }
 }
 
@@ -14,11 +14,15 @@ evaluationDependsOn(':project2')
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 20
-    buildToolsVersion "20.0"
+    compileSdkVersion 24
+    buildToolsVersion "24.0.1"
 }
 
 dependencies {
+    compile "com.android.support:support-v4:24.1.1"
+    compile "com.android.support:gridlayout-v7:24.1.1"
+    compile "com.android.support:cardview-v7:24.1.1"
+    compile "com.android.support:appcompat-v7:24.1.1"
     compile project(":project1:A1")
     compile project(":project1:B1")
     compile project(":project1:Z1")
